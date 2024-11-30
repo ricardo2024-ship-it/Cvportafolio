@@ -1,0 +1,15 @@
+
+.hero{
+    background-image: url(../img/logohero.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+position: relative;
+margin-bottom: 2rem;
+
+}
+
+.card img{
+width: 300px;
+
+}

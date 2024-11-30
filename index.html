@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>CVPORTAFOLIO</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark p-2 ">
+    <div class="container text-bg-light p-3 p-3">
+      <!-- Logo alineado a la izquierda -->
+      <a class="navbar-brand" href="#">
+            <h1>Curriculum Vitae</h1>
+          </a>
+  
+      <!-- Botón para menú en pantallas pequeñas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-drak active " href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-drak active " href="./portafolio.html">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-drak  active" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero" style="height: 100vh; display: flex; align-items: center;">
+    <div class="contenido-hero">
+        <div class="row justify-content-center ">
+            <!-- Columna 1 - Imagen (con Card) -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./assets/img/yo.jpeg" alt="Imagen descriptiva" class="img-thumbnail">
+                </div>
+            </div>
+            <!-- Columna 2 - Acerca de mí (con Card) -->
+            <div class="col-md-4 mb-4">
+              <!-- Primera tarjeta: "Acerca de mí" -->
+              <div class="card p-2 mb-3"> <!-- Añadí 'mb-3' para un margen abajo de la tarjeta -->
+                  <div class="card-body">
+                      <h2 class="card-title">Acerca de mí</h2>
+                      <p class="card-text">Hola, soy Ronald Galarza, un apasionado analista programador jr. Con experiencia en Soporte Informático y Programación, así como implementación de soluciones IT. Me encanta enfrentar retos tecnológicos y trabajar en equipo. Mi objetivo es seguir aprendiendo y aportar soluciones innovadoras en el campo de la programación.</p>
+                  </div>
+              </div>
+          
+              <!-- Segunda tarjeta: "A" -->
+              <div class="card ">
+                  <div class="card-body p-3">
+                      <h2 class="card-title">Antecedentes Personales</h2>
+                      <p class="card-text">
+                        <ul>
+                          <li><strong>Nombres</strong> : Ronald  </li>
+                          <li><strong>Apellidos</strong> :  Galarza</li>
+                          <li><strong>Email</strong> : ronald.galarza@yahoo.com </li>
+                          <li><strong>ciudad</strong> Santiago de Chile</li>
+                      </ul>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          
+            </div>       
+        </div> <!-- Fin de la Fila -->
+    </div> <!-- Fin de contenido-hero -->
+</section>
+
+<main class="container mt-4 text-warning bg-dark p-4">
+  <!-- Fila 1: Título de Educación -->
+  <div class="row ">
+      <div class="col-12 text-center">
+          <h1>Educación</h1>
+      </div>
+  </div> <!-- Fin de la Fila 1 (Título Educación) -->
+
+  <!-- Fila 2: Sección de Educación con 3 columnas -->
+  <div class="row mt-4">
+      <!-- Columna 1 - Título de la educación -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="./assets/img/LOGO-COLEGIO-SAN-MARTIN-1.png" class="card-img-top" alt="Imagen de Grado en Ingeniería">
+              <div class="card-body">
+                  <h5 class="card-title">Liceo Libertador San Martin </h5>
+                  <p><strong>Cientifico Humanista</strong></p>
+                  <p>Año: 2006</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Columna 2 - Curso de Desarrollo Web -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="./assets/img/Instituto_Profesional_IACC.png" class="card-img-top" alt="Imagen de Curso de Desarrollo Web">
+              <div class="card-body">
+                  <h5 class="card-title">Instituto Profesional IACC</h5>
+                  <p><strong>Tecnico Analista Programador</strong></p>
+                  <p>Año: 2022</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Columna 3 - Certificación -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="./assets/img/verde+en+fondo+blanco.png" class="card-img-top" alt="Imagen de Certificación en JavaScript">
+              <div class="card-body">
+                  <h5 class="card-title">Curso de Front End</h5>
+                  <p><strong>Plataforma Online</strong></p>
+                  <p>Año: 2024</p>
+              </div>
+          </div>
+      </div>
+  </div> <!-- Fin de la Fila 2 (Educación con 3 columnas) -->
+
+  <!-- Fila 3: Título de Experiencia -->
+  <div class="row mt-4">
+      <div class="col-12 text-center">
+          <h1>Experiencia</h1>
+      </div>
+  </div> <!-- Fin de la Fila 3 (Título Experiencia) -->
+
+  <!-- Fila 4: Sección de Experiencia -->
+  <div class="row">
+      <div class="col-12">
+          <div class="card">
+              <div class="card-body">
+                  <ul>
+                      <li><strong>Analista Soporte</strong> - Spes.SA , 2024 - Actualidad</li>
+                      <li><strong>Analista Soporte</strong> - Chocolastes del Mundo , 2022 - 2024</li>
+                      <li><strong>Chofer Adquisiciones Codelpa</strong> 2019 - 2021</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div> 
+  <!-- Fin de la Fila 4 (Experiencia) -->
+
+  <div class="row mt-4">
+    <div class="col-12 text-center">
+        <h1>Habilidades</h1>
+    </div>
+</div> <!-- Fin de la Fila 3 (Título Experiencia) -->
+
+<!-- Fila 4: Sección de Experiencia -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <ul>
+                    <li><strong>Administrador de Sistemas ERP Softland(creación de usuarios y permisos)</strong></li>
+                    <li><strong>Administrador de sistema OrigenPos (software a medida )</strong></li>
+                    <li><strong>Administrador office 365 (creación de Correos,Teams,Onedrive dar de bajas y altas)</strong></li>
+                    <li><strong>Administrador de usuarios por Active Directory (creación y dar bajas).</strong></li>
+                    <li><strong>Soporte remoto vía Anydesk, teamviewer para resolución de incidentes y requerimientos diarios</strong></li>
+                    <li><strong>Soporte remoto vía telefónica</strong></li>
+                    <li><strong>Preparación de equipos instalación de sistema operativo win7, 10, 11</strong></li>
+                    <li><strong>Trabajo en terreno con instalación de equipos para punto de ventas en (retail La Fete )</strong></li>
+                    <li><strong>Ordenamiento de cables en puntos de trabajo y rack de telecomunicaciones</strong></li>
+                    <li><strong>Realización de cable UTP rj45 ya sea B </strong></li>
+                    <li><strong>Conocimientos en programación web HTML,CSS,JavaScript ,PHP (junior) </strong></li>
+                    <li><strong>Dar seguimiento a futuras instalacion e implementación con proveedores </strong></li>
+                    <li><strong>Instalacion de impresosa de red </strong></li>
+                    <li><strong>instalacion de Camaras cctv</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> 
+</main>
+
+
+<footer class="container ">
+    <div class="container-fluid  p-4">
+        <div class="row align-items-start">
+            <div class="col-12">
+                <div class="text-center">
+                    
+                  </div>
+            </div>
+            <div class="col-12 text-warning bg-dark p-2">
+                <div class="text-center">
+                        <p>@Ronald Galarza.Todos los derechos reservados.</p>
+            </div>
+          </div>
+      </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
